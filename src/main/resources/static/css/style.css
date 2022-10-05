@@ -51,8 +51,6 @@ body {
 	--bs-navbar-toggler-padding-x: 0;
 	background: black;
 	height: 65px;
-	padding-top: 0;
-	padding-bottom: 0;
 }
 
 .navbar-nav{
@@ -85,6 +83,10 @@ body {
 .navbar-collapse .collapse .show  {
 	padding-left: 0.5rem;
 	background-color: black;
+}
+
+#navmenu {
+	background: black;
 }
 /**********************************************
 				 End Navbar
@@ -511,10 +513,6 @@ body.modal-open #username-page, body.modal-open .navbar{
 #chat-page .messageAreaPrivate {
 	padding: 0 20px;
     height: 68vh;
-}
-
-.chat-container h4 {
-	margin-top: 35%;
 }
 
 .dashboard-left {
