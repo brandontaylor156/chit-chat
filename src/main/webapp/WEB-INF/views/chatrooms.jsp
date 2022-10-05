@@ -6,8 +6,17 @@
 <%@ taglib prefix = "t" tagdir="/WEB-INF/tags" %>
 
 
-
+<title>Channels</title>
 <t:base>
+	 <!-- Channel Previews -->
+    <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js" defer></script>
+    <script defer type="text/javascript" src="/js/preview.js"></script>
+    
+    <!--  Live Search -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script defer src="/js/searchBar.js"></script> 
+    
 	<script defer type="text/javascript" src="/js/chat.js"></script>
     <noscript>
         <h2>Sorry! Your browser doesn't support Javascript</h2>

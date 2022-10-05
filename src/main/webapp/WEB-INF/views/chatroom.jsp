@@ -5,6 +5,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix = "t" tagdir="/WEB-INF/tags" %>
 
+<title>${channel.channelNickname}</title>
 <t:base>
     <script defer type="text/javascript" src="/js/chat.js"></script>
 
@@ -17,18 +18,18 @@
 
 	<span class="d-none" id="userId">${id}</span>
 	<span class="d-none" id="channelId">${channelId}</span>
-	
-    <div id="chat-page" class="fade-in d-flex align-items-center justify-content-center vh-100 w-100 styled-text text-white">
-        <div class="chat-container w-100 w-sm-75 w-lg-62 w-xxl-50 mt-5">
+	<div class="d-flex vh-100 align-items-end">
+    <div id="chat-page" class="public-page fade-in d-flex align-items-center justify-content-center w-100 styled-text text-white">
+        <div class="chat-container w-100 w-sm-75 w-lg-62 w-xxl-50">
     
-    		<div class="d-none d-sm-flex justify-content-center align-items-center flex-column">
+    		<div class="d-flex justify-content-center align-items-center flex-column">
 				<c:choose>
 					<c:when test="${channel != null}">
-						<h2 id="chatroomNickname" class="text-center m-0">${channel.channelNickname}</h2> 
+						<h2 id="chatroomNickname" class="text-center m-0 overlap">${channel.channelNickname}</h2> 
 						<span id="chatroomName" class="hidden">${channel.channelName}</span>
 					</c:when>
 					<c:otherwise>
-						<h2 id="chatroomName" class="text-center m-0">${chatroomName}</h2> 
+						<h2 id="chatroomName" class="text-center m-0 overlap">${chatroomName}</h2> 
 					</c:otherwise>
 
 				</c:choose>
@@ -101,5 +102,5 @@
   			</form>
         </div>
     </div>
-    
+    </div>
 </t:base>

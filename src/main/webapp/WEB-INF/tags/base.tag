@@ -18,9 +18,6 @@
     <script defer src="/webjars/jquery/jquery.min.js"></script>
     <script defer src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- javascript -->
-    <script defer type="text/javascript" src="/js/script.js"></script>
-
     <!-- javascript for websocket library -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
@@ -28,22 +25,11 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     
-    <!-- Live Search -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script defer src="/js/searchBar.js"></script>
-    
-    <!-- Tabs -->
-    <script defer type="text/javascript" src="/js/tabs.js"></script>
-    
-    <!-- Channel Previews -->
-    <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js" defer></script>
-    <script defer type="text/javascript" src="/js/preview.js"></script>
 </head>
 <body>
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm fixed-top">
-      <div class="container-fluid ps-3 pe-4 styled-text">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid h-100 styled-text px-3 pe-4">
         <a href="/" class="navbar-brand text-white pt-1">
         <svg width="210" height="40" viewBox="0 0 272 47" fill="none" xmlns="http://www.w3.org/2000/svg" class="pt-2">
 			<g filter="url(#filter0_d_2_41)">

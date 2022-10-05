@@ -5,7 +5,12 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix = "t" tagdir="/WEB-INF/tags" %>
 
+<title>Friends</title>
 <t:base>
+<script defer type="text/javascript" src="/js/tabs.js"></script>
+<!--  Live Search -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script defer src="/js/searchBar.js"></script> 
 
 <div id="username-page" class="fade-in d-flex align-items-center styled-text text-white">
     <div class="container username-page-container text-center pt-5 pb-3 vh-100">
@@ -108,7 +113,7 @@
                                 <c:forEach var="user" items="${users}">
                                     <c:choose>
                                         <c:when
-                                            test="${user.id != loggedInUser.id && !(loggedInUser.friendingUsers.contains(user) || loggedInUser.friendedUsers.contains(user))}">
+                                            test="${user.id != loggedInUser.id && !(loggedInUser.friendingUsers.contains(user) || (loggedInUser.friendedUsers.contains(user)))}">
                                             <li class="list-group-item live-search-list rounded mb-1 mx-3 mx-sm-0">
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="username ps-1">${user.nickname}

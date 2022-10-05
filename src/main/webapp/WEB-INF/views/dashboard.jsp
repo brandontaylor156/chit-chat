@@ -8,6 +8,12 @@
 <title>Dashboard</title>
 <t:base>
 <script defer type="text/javascript" src="/js/dm.js"></script>
+<script defer type="text/javascript" src="/js/tabs.js"></script>
+
+<!--  Live Search -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script defer src="/js/searchBar.js"></script> 
+    
 <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
 	<!-- hidden variables -->
 	<span id="username" class="d-none">${username}</span>
@@ -102,8 +108,8 @@
 
 		<!-- Chatting page  -->
 		<div class="col-7 text-center bg-dark dashboard-right">
-			<div id="chat-page" class="d-flex align-items-center justify-content-center w-100 styled-text text-white">
-				<div class="chat-container w-100">
+			<div id="chat-page" class="d-flex align-items-center justify-content-center w-100 h-100 styled-text text-white">
+				<div class="chat-container pb-0 w-100">
 						
 					<c:choose>
 						<c:when test="${selectedFriendship == null}">

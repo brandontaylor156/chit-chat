@@ -5,8 +5,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix = "t" tagdir="/WEB-INF/tags" %>
 
+<title>Edit Channel</title>
 <t:base>
-
 <div id="username-page" class="fade-in d-flex align-items-center styled-text text-white">
 	<div class="container username-page-container text-center pt-5 pb-3 vh-100">
 		<div class="row mt-5 d-flex justify-content-center">

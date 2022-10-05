@@ -5,7 +5,12 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix = "t" tagdir="/WEB-INF/tags" %>
 
+<title>Your Channels</title>
 <t:base>
+<script defer type="text/javascript" src="/js/tabs.js"></script>
+<!--  Live Search -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script defer src="/js/searchBar.js"></script> 
 
 <div id="username-page" class="fade-in d-flex align-items-center styled-text text-white">
     <div class="container username-page-container text-center pt-5 pb-3 vh-100">

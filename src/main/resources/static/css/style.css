@@ -50,6 +50,9 @@ body {
 .navbar{
 	--bs-navbar-toggler-padding-x: 0;
 	background: black;
+	height: 65px;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .navbar-nav{
@@ -81,6 +84,7 @@ body {
 
 .navbar-collapse .collapse .show  {
 	padding-left: 0.5rem;
+	background-color: black;
 }
 /**********************************************
 				 End Navbar
@@ -249,8 +253,12 @@ a {
 	font-size: .8em;
 }
 
-.chat-container {
+/* .chat-container {
 	padding-bottom: 20px;
+} */
+
+.public-page {
+	height: calc(100% - 65px);
 }
 
 /**********************************************
@@ -462,7 +470,7 @@ body.modal-open #username-page, body.modal-open .navbar{
 
 .tab-form .tab-header > div.active {
     color: white;
-    background-color: #0c0cd4b3;
+    background-color: #0c0cd4e3;
 }
 
 .tab-form .tab-body > div {

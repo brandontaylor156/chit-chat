@@ -5,8 +5,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix = "t" tagdir="/WEB-INF/tags" %>
 
+<title>Sign In • Guest</title>
 <t:base>
-
     <noscript>
         <h2>Sorry! Your browser doesn't support Javascript</h2>
     </noscript>
