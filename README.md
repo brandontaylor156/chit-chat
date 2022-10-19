@@ -2,6 +2,8 @@
 
 A full-stack instant-messaging application created with Java Spring Boot, WebSocket, and MySQL.
 
+<a href="https://www.youtube.com/watch?v=DuhOW_mVuh0&ab_channel=BrandonTaylor">YouTube Demo</a>
+
 ![LandingPage](chitchat-login.png)
 
 Sign in as a guest user or regular user (email required) and talk in public chatrooms! Clients can choose from many channels to connect with others. Channel previews display the ten most recent messages of each channel! Live search is enabled on multiple pages for quick and easy access.
