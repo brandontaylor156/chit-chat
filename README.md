@@ -1,6 +1,6 @@
 # Chit Chat
 
-A full-stack instant-messaging application created with Java Spring Boot, WebSocket, and MySQL.
+*A full-stack instant-messaging application created with Java Spring Boot, WebSocket, and MySQL.*
 
 <a href="https://www.youtube.com/watch?v=DuhOW_mVuh0&ab_channel=BrandonTaylor">YouTube Demo</a>
 
